@@ -40,6 +40,7 @@
 		EB47C0042221866400DDB9BC /* GitUseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB47C0082221866400DDB9BC /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
 		EB47C00A2221866400DDB9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB47C0132221867900DDB9BC /* 4Dummies */ = {isa = PBXFileReference; lastKnownFileType = folder; name = 4Dummies; path = ../../Desktop/4Dummies; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		EB47BFE32221866200DDB9BC = {
 			isa = PBXGroup;
 			children = (
+				EB47C0132221867900DDB9BC /* 4Dummies */,
 				EB47BFEE2221866200DDB9BC /* GitUseExample */,
 				EB47C0072221866400DDB9BC /* GitUseExampleTests */,
 				EB47BFED2221866200DDB9BC /* Products */,
@@ -81,10 +83,8 @@
 		EB47BFEE2221866200DDB9BC /* GitUseExample */ = {
 			isa = PBXGroup;
 			children = (
-				EB47BFEF2221866200DDB9BC /* AppDelegate.h */,
-				EB47BFF02221866200DDB9BC /* AppDelegate.m */,
-				EB47BFF22221866200DDB9BC /* ViewController.h */,
-				EB47BFF32221866200DDB9BC /* ViewController.m */,
+				EB47C0142221899800DDB9BC /* AppDelegate */,
+				EB47C01522218A1600DDB9BC /* ViewController */,
 				EB47BFF52221866200DDB9BC /* Main.storyboard */,
 				EB47BFF82221866400DDB9BC /* Assets.xcassets */,
 				EB47BFFA2221866400DDB9BC /* LaunchScreen.storyboard */,
@@ -101,6 +101,24 @@
 				EB47C00A2221866400DDB9BC /* Info.plist */,
 			);
 			path = GitUseExampleTests;
+			sourceTree = "<group>";
+		};
+		EB47C0142221899800DDB9BC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EB47BFEF2221866200DDB9BC /* AppDelegate.h */,
+				EB47BFF02221866200DDB9BC /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EB47C01522218A1600DDB9BC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB47BFF22221866200DDB9BC /* ViewController.h */,
+				EB47BFF32221866200DDB9BC /* ViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NMJWT35ZBH;
 				INFOPLIST_FILE = GitUseExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NMJWT35ZBH;
 				INFOPLIST_FILE = GitUseExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
