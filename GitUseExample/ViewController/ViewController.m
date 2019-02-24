@@ -22,6 +22,6 @@
 
 -(IBAction)buttonClicked:(id)sender
 {
-   NSLog (@"Button clicked");
+   NSLog (@"We did it, reddit");
 }
 @end
